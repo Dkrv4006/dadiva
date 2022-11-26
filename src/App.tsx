@@ -1,21 +1,46 @@
-import { Button } from "@mui/material";
-import { Home } from "./components/style";
+import { Box, Container } from "@mui/material";
+
+
+import { Layout } from "./components/Layout";
+import { GlobalStyle } from "./style/style";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button variant="contained">
-          daniel
-        </Button>
-         <Home>
-          daniel
-         </Home>
-        <h1>daniel</h1>
-      </header>
-    </div>
+    <>
+      <GlobalStyle/>
+      <Box>
+        <Container maxWidth="xl">
+         <Layout/>
+
+       
+
+          {/* <Button variant="contained">
+            daniel
+          </Button>
+
+          <div className="input-g">
+            <input type="text" />
+            <label htmlFor="">daniel</label>
+          </div> */}
+         
+      
+        </Container>
+
+      </Box>
+        
+
+    </>
   );
 }
 
 export default App;
+
+// "emmet.includeLanguages":{
+//   "javascript":"javascriptreact"
+// },
+// #0DA1FF
+// #0C59E8
+// #0016FF
+// #340CE8
+// #7B0DFF
