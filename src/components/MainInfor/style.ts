@@ -18,7 +18,7 @@ export const MainStyle = styled.div`
     }
     .divright{
         width: 50%;
-        background: blue;
+        
     }
 
     span{
