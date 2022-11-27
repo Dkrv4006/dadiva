@@ -8,17 +8,17 @@ export function Heade(){
             <div className="navegation">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contate</a></li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contate</li>
                     </ul>
                 </nav>
             </div>
             <div className="social">
             <ul>
-                <li><a href="#">GitHunb</a></li>
-                <li><a href="#">Linkdin</a></li>
-                <li><a href="#">CodePen</a></li>
+                <li>GitHunb</li>
+                <li>Linkdin</li>
+                <li>CodePen</li>
             </ul>
             </div>
         </Header>
