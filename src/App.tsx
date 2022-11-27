@@ -1,7 +1,7 @@
 import { Box, Container } from "@mui/material";
 
 
-import { Layout } from "./components/Layout";
+import * as Layout from './components/leyaut';
 import { GlobalStyle } from "./style/style";
 
 
@@ -11,7 +11,7 @@ function App() {
       <GlobalStyle/>
       <Box>
         <Container maxWidth="xl">
-         <Layout/>
+         <Layout.Layout/>
 
        
 
