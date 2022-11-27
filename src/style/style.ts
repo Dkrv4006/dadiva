@@ -17,9 +17,6 @@ export const GlobalStyle = createGlobalStyle`
       float: left;
       margin: 2.5rem 20px;
 
-     }
-     a{
-      text-decoration: none;
       color: #0DA1FF;
      }
 
