@@ -3,10 +3,11 @@ import styled from "styled-components";
 
 export const MainStyle = styled.div`
     width: 100%;
-    height: 500px;
+   
     
 
     display: flex;
+    justify-content: center;
     
     .divleft{
         width: 50%;
@@ -15,6 +16,8 @@ export const MainStyle = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+
+        border-bottom: #0DA1FF solid 2px;
     }
     .divright{
         width: 50%;
@@ -34,7 +37,7 @@ export const MainStyle = styled.div`
         }
 
         .divleft{
-            width: 100%;
+            width: 80%;
             height: 100px;
         }
         h1{
