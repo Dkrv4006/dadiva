@@ -1,4 +1,5 @@
 import { MainStyle } from "./style";
+import logo from "../../lo.svg"
 
 export function MainInfor(){
     return(
@@ -7,7 +8,9 @@ export function MainInfor(){
             <div className="divleft">
                 <h1>Olá sou Daniel é <br /> sou desenvolvedor <span>FULL STACK</span></h1>
             </div>
-            <div className="divright"></div>
+            <div className="divright">
+                <img src={logo} alt="" />
+            </div>
         </MainStyle>
     )
 }
