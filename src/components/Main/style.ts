@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import vscode from '../../asses/vscode.svg'
 
 export const Mainsty = styled.div`
     
@@ -12,22 +13,17 @@ export const Mainsty = styled.div`
     position: relative;
     z-index: 2;
 
-   &:after{
-        content: "";
+    &::before{
+        content: url(${vscode});
+
         position: absolute;
-        width: 153px;
-        height:100px;
-        border-bottom:rgba(333,333,333,0.3) solid 3px;
-        border-right: rgba(333,333,333,0.3) solid 3px;
-        border-top: transparent solid 8px;
-        border-left: transparent solid 8px;
-        border-radius: 10px;
-        bottom: -40px;
-        left: 9%;
-        z-index: 0;
-        
-        
-    }
+        height: 100px;
+        width: 100px;
+        bottom: -20%;
+        left: 10%;
+        color: red;
+        transform: translate(-50%, -50%);
+        }
     
     h1{
         font-weight: 100;
