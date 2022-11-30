@@ -32,9 +32,10 @@ export const FrontStyle = styled.div`
     
 
     .js{
-        width: 200px;
-        height: 80px;
-       
+        width: 250px;
+        height: 110px;
+        border-radius: 5px;
+        margin: 10px;
         box-shadow:0px 0px 5px #0DA1FF;
         background: #4e4f50 ;
        
