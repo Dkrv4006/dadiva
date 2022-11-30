@@ -96,8 +96,9 @@ export const MainStyle = styled.div`
 
     }
     img{
-        width: 400px;
-        height: 400px;
+        width: 80%;
+        height: 80%;
+        
     }
 
 `
