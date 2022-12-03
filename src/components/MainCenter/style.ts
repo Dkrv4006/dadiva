@@ -12,7 +12,7 @@ export const MainCenterStyle = styled.div`
      
 
       
-    background: yellow;
+    background: #252430;
 
       
 
