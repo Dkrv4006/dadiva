@@ -1,14 +1,28 @@
 import styled from "styled-components";
 
 export const LayoutStyle = styled.div`
+    width: auto;
+    height: auto;
 
-    width: 100%;
-    height: 1000px;
-    margin:20px 0;
-    background: #353535;
-    /* box-shadow:0px 0px 19px #0DA1FF; */
-    border-radius: 20px;
+    background-color: azure;
 
-  /* background-image: linear-gradient(to right bottom, #666869, #4e4f50, #363737, #202021, #070707); */
+    main{
+        
+        padding: 15px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .app-root{
+       
+        max-width: 1400px;
+
+        display: grid;
+        grid-template-columns: 1fr 4fr 0.5fr;
+        gap: 20px;
+        
+    }
 
 `

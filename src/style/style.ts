@@ -9,42 +9,13 @@ export const GlobalStyle = createGlobalStyle`
      }
      body, html{
       background: #353535;
+      overflow: visible;
       /* background-image: linear-gradient(to left top, #666869, #4e4f50, #363737, #202021, #070707); */
      }
 
-     li{
-      list-style: none;
-      float: left;
-      margin: 2.5rem 20px;
-
-      color: #0DA1FF;
+     #root{
+    
      }
 
-     .input-g{
-        position: relative;
-     }
-     input{
-        padding: 10px;
-        transition: 150ms cubic-bezier(0.4,0,0.2,1);
-     }
-     
-     label{
-        position: absolute;
-        left: 10px;
-        background: white;
-        pointer-events: none;
-        transform: translateY(1rem);
-        transition: 150ms cubic-bezier(0.4,0,0.2,1);
-     }
-     input:focus{
-        outline: none;
-        border: 1.5px solid red;
-     }
-
-     input:hover ~ label{
-        transform: translateY(-50%) scale(0.8)
-        
-     }
-     
     
 `

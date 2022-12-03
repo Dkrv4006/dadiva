@@ -1,21 +1,28 @@
 
-import { Heade } from "../Header";
-import { Front } from "../Front";
-import { Main } from "../Main";
-import { MainInfor } from "../MainInfor";
+import { MainLeft } from "../MainLeft";
+import { MainCenter } from "../MainCenter";
 import { LayoutStyle } from "./style";
+import { MainRight } from "../MainRight";
 
 export function Layout(){
    
 
     return(
-      <LayoutStyle>
-        <Heade/>
-        <MainInfor/>
-        <Main/>
-        <Front/>
-      </LayoutStyle>
+      <div className="app">
+
+        <LayoutStyle>
+          <main>
+            <div className="app-root">
+              <MainLeft/>
+              <MainCenter/>
+              <MainRight/>
+            </div>
+          </main>
     
+       
+        </LayoutStyle>
+      
+      </div>
     )
 
     
