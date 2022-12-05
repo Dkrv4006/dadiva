@@ -13,7 +13,8 @@ export const LigaStyle = styled.div`
         height: 250px;
         padding: 15px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
 
 
         h1{
