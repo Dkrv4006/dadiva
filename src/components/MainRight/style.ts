@@ -10,7 +10,14 @@ grid-column: 3 /4;
    
     position: sticky;
 
-    top: 15px
+    top: 15px;
+
+    @media screen and (max-width: 1000px) {
+    
+            
+    display: none;
+
+}
 
     
     
