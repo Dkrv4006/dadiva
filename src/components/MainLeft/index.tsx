@@ -3,7 +3,7 @@ import { MainLeftStyle } from "./style";
 
 export function MainLeft() {
     return(
-        <MainLeftStyle>
+        <MainLeftStyle className="on">
             <div className="app-root">
                 <div className="avatar" >
                     <div className="perfil"></div>
