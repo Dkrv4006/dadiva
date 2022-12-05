@@ -15,7 +15,7 @@ export const InforStyle = styled.div`
         background-repeat: no-repeat;
         
         position: absolute;
-        width: 500px;
+        
         height: 80%;
         top: 25%;
      
