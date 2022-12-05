@@ -1,5 +1,5 @@
 import { LigaStyle } from "./style"
-import "@hover.css"
+// import "@hover.css"
 
 
 export const Liga = () => {
