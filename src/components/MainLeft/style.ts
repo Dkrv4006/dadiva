@@ -9,10 +9,18 @@ export const MainLeftStyle = styled.div`
     position: absolute;
     position: sticky;
     top: 15px;
+
+    @media screen and (max-width:500px) {
+    
+            
+                display: none;
+        
+        }
     
     h2, h3{
         color: white;
         font-weight: 100;
+
     }
 
     .app-root{
@@ -167,5 +175,13 @@ export const MainLeftStyle = styled.div`
         margin-top: 20px;
 
     }
+
+    @media screen and (max-width: 480px) {
+       .scroll{
+           
+           display: none;
+    }
+    
+}
 
 `
