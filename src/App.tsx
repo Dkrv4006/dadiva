@@ -25,4 +25,8 @@ export default App;
 // #0016FF
 // #340CE8
 // #7B0DFF
-// #304FFF
+// #304FFF 
+
+// #e6e6fe
+// #252430
+// #191923

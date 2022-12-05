@@ -38,7 +38,7 @@ export const MainLeftStyle = styled.div`
         height: calc(100vh - 30px);
         background: #252430;
 
-        overflow: auto;
+        overflow: scroll;
        
         
     }

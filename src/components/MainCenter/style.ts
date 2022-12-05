@@ -6,13 +6,13 @@ export const MainCenterStyle = styled.div`
       grid-column: 2 / 3;
     
 
-      padding-left: 300px;
-      padding-right: 110px;
+      padding-left: 10px;
+      padding-right: 10px;
       height: 1000px;
      
 
       
-    background: #252430;
+    background: var(--secondary);
 
       
 

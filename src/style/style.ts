@@ -1,6 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+
+:root{
+   --primary: #0016FF;
+   --secondary: #191923;
+   --third:#252430;
+}
      *{
         margin: 0;
         padding: 0;
@@ -18,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     }
      body::-webkit-scrollbar-thumb{
         width: 5px;
-        background-color: #0016FF;
+        background-color: var(--primary);
     }
 
      #root{
