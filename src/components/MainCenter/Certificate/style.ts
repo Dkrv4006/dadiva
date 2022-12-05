@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import raiz from "../../../asses/sa.svg"
+
 
 export const CertificateStyle = styled.div`
     width: 100%;
