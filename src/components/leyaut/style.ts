@@ -20,7 +20,7 @@ export const LayoutStyle = styled.div`
     .app-root{
         max-width: 1400px;
         position: relative;
-        
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 4fr 0.1fr;
         gap: 20px;
@@ -28,10 +28,13 @@ export const LayoutStyle = styled.div`
         &::before{
             content: "";
             position:fixed;
+           
+            left: 0; 
+          
             top: 0;
-            left: 0;
             width: 100%;
             height: 15px;
+            z-index: 100;
             background-color: var(--secondary)
         }
         &::after{
@@ -43,6 +46,16 @@ export const LayoutStyle = styled.div`
             height: 15px;
             background-color: var(--secondary);
         }
+
     }
+
+    @media screen and (max-width: 480px) {
+       .app-root:active{
+           
+    }
+    
+}
+
+
 
 `
