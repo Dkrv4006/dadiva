@@ -23,6 +23,12 @@ export const ProjectStyle = styled.div`
     }
     h1{
         width: 100%;
+        color: var(--primary);
+    }
+    i{
+        font-size: 50px;
+        text-align: justify;
+        color: #fff;
     }
     
 
