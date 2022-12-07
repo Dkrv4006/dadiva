@@ -78,6 +78,7 @@ export const MainLeftStyle = styled.div`
             width: 80%;
             height: 10px;
             background-color: #0016FF ;
+            border-radius: 20px;
             z-index: 0;
         }
     }
