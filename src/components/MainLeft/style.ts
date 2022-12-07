@@ -67,7 +67,7 @@ export const MainLeftStyle = styled.div`
         margin-top: 10px;
         background-color: black;
         position: relative;
-
+        border-radius: 20px;
 
         &::before{
             content: "";
@@ -88,6 +88,7 @@ export const MainLeftStyle = styled.div`
         margin-top: 10px;
         background-color: black;
         position: relative;
+        border-radius: 20px;
 
 
         &::before{
@@ -98,6 +99,7 @@ export const MainLeftStyle = styled.div`
     
             width: 75%;
             height: 10px;
+            border-radius: 20px;
             background-color: #0016FF ;
         }
     }
@@ -107,6 +109,7 @@ export const MainLeftStyle = styled.div`
         margin-top: 10px;
         background-color: black;
         position: relative;
+        border-radius: 20px;
 
 
         &::before{
@@ -117,6 +120,7 @@ export const MainLeftStyle = styled.div`
     
             width: 55%;
             height: 10px;
+            border-radius: 20px;
             background-color: #0016FF ;
         }
     }
