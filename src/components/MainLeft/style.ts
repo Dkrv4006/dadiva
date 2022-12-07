@@ -26,14 +26,21 @@ export const MainLeftStyle = styled.div`
     .app-root{
         width: 290px;
         padding-bottom: 25px;
+        
+
     }
     
     .avatar{
-        width: 250px;
-        height: 250px;
+        width: 290px;
+        height: 290px;
         background: #252430;
         position: fixed;
         top: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
         
         
     }
@@ -41,12 +48,12 @@ export const MainLeftStyle = styled.div`
         display: flex;
         justify-content: center;
         width: 290px;
-        padding-top: 250px;
+        padding-top: 290px;
         padding-bottom: 25px;
         height: calc(100vh - 30px);
-        background: #252430;
+        background: #20202A;
 
-        overflow: scroll;
+        overflow: auto;
        
         
     }
@@ -71,6 +78,7 @@ export const MainLeftStyle = styled.div`
             width: 80%;
             height: 10px;
             background-color: #0016FF ;
+            z-index: 0;
         }
     }
     .pocenteCss{
@@ -181,7 +189,23 @@ export const MainLeftStyle = styled.div`
            
            display: none;
     }
+
     
 }
 
+    .perfil{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: #0016FF;
+        padding: 5px;
+    }
+    
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    
 `

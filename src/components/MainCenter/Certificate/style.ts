@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const CertificateStyle = styled.div`
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-top: 30px;
 
     display: flex;
@@ -14,7 +14,7 @@ export const CertificateStyle = styled.div`
         content: "";
         position: absolute;
         
-        height: 100%;
+        height: 110%;
         width: 5px;
         top: 0;
         left: calc(50% - 2px);
@@ -77,6 +77,7 @@ export const CertificateStyle = styled.div`
         margin-bottom: 20px;
     }
     h1{
+        
         color: #fff;
     }
 

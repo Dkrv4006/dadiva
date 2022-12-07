@@ -1,12 +1,11 @@
 import { MainLeftStyle } from "./style";
-
-
+import  avata  from "../../asses/avata.png"
 export function MainLeft() {
     return(
         <MainLeftStyle className="on">
             <div className="app-root">
                 <div className="avatar" >
-                    <div className="perfil"></div>
+                    <div className="perfil"><img src={avata} alt="" /></div>
                 </div>
                 <div className="scroll">
                     <div className="experience">

@@ -9,7 +9,8 @@ export const MainCenterStyle = styled.div`
       padding-left: 10px;
       padding-right: 10px;
       height: auto;
-     
+  
+   
 
       
     background: var(--secondary);

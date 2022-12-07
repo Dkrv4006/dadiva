@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const FormationStyle = styled.div`
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-top: 30px;
     position: relative;
 
@@ -63,6 +63,7 @@ export const FormationStyle = styled.div`
 
 
     .frome{
+        text-align: center;
         margin-top: 15px;
         color: #fff;
     }
