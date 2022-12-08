@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const MainRightStyle = styled.div`
     
     grid-column: 3 /4;
-    width: 70px;
+    width: auto;
     height: calc(100vh - 30px);
     background:#252430;
     text-align: center;
@@ -47,13 +47,36 @@ export const MainRightStyle = styled.div`
 }
 
     i, button {
-       margin-top: 20px;
+       margin: 15px;
         font-size: 30px;
         background: var(--third);
         color: white;
         border: none;
     
     }
+   
+    .daniel{
+        width: 200px;
+        height: 100%;
+
+    
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+ 
+    width: 0px;
+  }
+
+  to {
+  
+    width: 200px;
+  }
+}
+
+
     
     
     
