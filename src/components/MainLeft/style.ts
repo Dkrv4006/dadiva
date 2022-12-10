@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import fundo from "../../assets/fundo.jpg"
 
 export const MainLeftStyle = styled.div`
 
@@ -9,21 +9,17 @@ export const MainLeftStyle = styled.div`
     position: absolute;
     position: sticky;
     top: 15px;
+   
 
-    @media screen and (max-width:500px) {
-    
-            
-                display: none;
-        
-        }
     
     h2, h3{
         color: white;
+        font-size: 20px;
         font-weight: 100;
 
     }
 
-    .app-root{
+    .app-left{
         width: 290px;
         padding-bottom: 25px;
         
@@ -36,7 +32,7 @@ export const MainLeftStyle = styled.div`
         background: #252430;
         position: fixed;
         top: 15px;
-
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -60,7 +56,7 @@ export const MainLeftStyle = styled.div`
     .scroll::-webkit-scrollbar{
         display: none;
     }
-
+    
     .pocenteHtmal{
         width: 230px;
         height: 10px;
@@ -77,7 +73,7 @@ export const MainLeftStyle = styled.div`
     
             width: 80%;
             height: 10px;
-            background-color: #0016FF ;
+            background-color: var(--primary) ;
             border-radius: 20px;
             z-index: 0;
         }
@@ -88,7 +84,8 @@ export const MainLeftStyle = styled.div`
         margin-top: 10px;
         background-color: black;
         position: relative;
-        border-radius: 20px;
+     
+            border-radius: 20px;
 
 
         &::before{
@@ -99,9 +96,14 @@ export const MainLeftStyle = styled.div`
     
             width: 75%;
             height: 10px;
+            background-color: var(--primary) ;
             border-radius: 20px;
-            background-color: #0016FF ;
         }
+    }
+
+    .mainJavaScript{
+        display: flex ;
+        flex-direction: column;
     }
     .pocenteJavaScript{
         width: 230px;
@@ -111,17 +113,17 @@ export const MainLeftStyle = styled.div`
         position: relative;
         border-radius: 20px;
 
-
+        
         &::before{
             content: "";
             left: 0;
             top: 0;
             position: absolute;
-    
+            
             width: 55%;
             height: 10px;
             border-radius: 20px;
-            background-color: #0016FF ;
+            background-color: var(--primary) ;
         }
     }
     .pocenteNodejs{
@@ -130,8 +132,8 @@ export const MainLeftStyle = styled.div`
         margin-top: 10px;
         background-color: black;
         position: relative;
-
-
+        
+        
         &::before{
             content: "";
             left: 0;
@@ -140,7 +142,7 @@ export const MainLeftStyle = styled.div`
     
             width: 50%;
             height: 10px;
-            background-color: #0016FF ;
+            background-color: var(--primary) ;
         }
     }
     .pocenteReactjs{
@@ -149,7 +151,7 @@ export const MainLeftStyle = styled.div`
         margin-top: 10px;
         background-color: black;
         position: relative;
-
+        
 
         &::before{
             content: "";
@@ -159,7 +161,7 @@ export const MainLeftStyle = styled.div`
     
             width: 65%;
             height: 10px;
-            background-color: #0016FF ;
+            background-color: var(--primary) ;
         }
     }
     .pocenteMysql{
@@ -176,41 +178,101 @@ export const MainLeftStyle = styled.div`
             left: 0;
             top: 0;
             position: absolute;
-    
+            
             width: 30%;
             height: 10px;
-            background-color: #0016FF ;
+            background-color: var(--primary) ;
         }
     }
-    .html{
+    .label{
         display: flex;
         justify-content: space-between;
-        margin-top: 20px;
 
+        font-size: 20px;
+        color: white;
+        margin: 10px 0;
+        
     }
-
+    .l-time{
+        margin-bottom: 10px;
+    }    
+    .range {
+    width: 230px;
+    height: 15px;
+    -webkit-appearance: none;
+    background: #222;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 7px rgba(0, 0, 0, 1);
+    }
+    .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    border: 2px solid #333;
+    box-shadow: -407px 0 0 400px var(--primary);
+    }
     @media screen and (max-width: 480px) {
-       .scroll{
-           
-           display: none;
+        .scroll{
+            
+            display: none;
     }
-
+    
     
 }
 
-    .perfil{
+    /* .perfil{
         width: 130px;
         height: 130px;
         border-radius: 50%;
-        background: #0016FF;
+        background: #15E1F4;
         padding: 5px;
-    }
+    } */
     
     img{
         width: 120px;
         height: 120px;
         border-radius: 50%;
     }
+    
+    
+    @media screen and (max-width: 850px) {
+        grid-row: 1 / 2;
+        width: 100%;
+        position: absolute;
+        background: transparent ;
+        background: url(${fundo}) ;
+        background-repeat: no-repeat;
+        
+        background-size: 100% 100px;
+        background-position: left top ;
+
+
+        .app-left{
+            width: 100%;
+        }
+
+        .avatar{
+            width: 100%;
+            height: auto;
+            background: transparent ;
+            position: static ;
+        }
+
+        .scroll{
+            width: 100%;
+            height: auto;
+
+            padding: 0;
+            overflow: hidden;
+        }
+       
+    }
 
     
+
 `

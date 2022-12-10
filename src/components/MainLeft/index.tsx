@@ -1,9 +1,9 @@
 import { MainLeftStyle } from "./style";
-import  avata  from "../../asses/avata.png"
+import  avata  from "../../assets/avata.png"
 export function MainLeft() {
     return(
         <MainLeftStyle className="on">
-            <div className="app-root">
+            <div className="app-left">
                 <div className="avatar" >
                     <div className="perfil"><img src={avata} alt="" /></div>
                 </div>
@@ -12,50 +12,64 @@ export function MainLeft() {
                         <h2>Experience</h2>
                         <div className="language">
                             <div className="mainJavaScript">
-                                <div className="html">
-                                <h3>JavaScript</h3> 
-                                <h3>80%</h3>
+                                <div className="l-time">
+                                    <div className="label">
+                                        <label htmlFor="">Javascript</label>
+                                        <h3>80%</h3>
+                                    </div>
+                                    <div className="center">
+                                        <input className="range" type="range" value={80} />
+                                    </div>
                                 </div>
-                            <div className="pocenteJavaScript"></div>
-                            </div>
-                            <div className="mainNodejs">
-                                <div className="html">
-                                <h3>ReactJs</h3> 
-                                <h3>50%</h3>
+                                <div className="l-time">
+                                    <div className="label">
+                                        <label htmlFor="">Typescript</label>
+                                        <h3>60%</h3>
+                                    </div>
+                                    <div className="center">
+                                        <input className="range" type="range" value={60} />
+                                    </div>
                                 </div>
-                            <div className="pocenteReactjs"></div>
-                            </div>
-                            <div className="mainNodejs">
-                                <div className="html">
-                                <h3>NodeJs</h3> 
-                                <h3>50%</h3>
+                                <div className="l-time">
+                                    <div className="label">
+                                        <label htmlFor="">React</label>
+                                        <h3>70%</h3>
+                                    </div>
+                                    <div className="center">
+                                        <input className="range" type="range" value={70} />
+                                    </div>
                                 </div>
-                            <div className="pocenteNodejs"></div>
-                            </div>
-                            <div className="mainHtmal">
-                                <div className="html">
-                                <h3>HTML</h3> 
-                                <h3>80%</h3>
+                                <div className="l-time">
+                                    <div className="label">
+                                        <label htmlFor="">Nodejs</label>
+                                        <h3>50%</h3>
+                                    </div>
+                                    <div className="center">
+                                        <input className="range" type="range" value={50} />
+                                    </div>
                                 </div>
-                            <div className="pocenteHtmal"></div>
-                            </div>
-                            <div className="mainCss">
-                                <div className="html">
-                                <h3>CSS</h3> 
-                                <h3>75%</h3>
+                                <div className="l-time">
+                                    <div className="label">
+                                        <label htmlFor="">Html</label>
+                                        <h3>80%</h3>
+                                    </div>
+                                    <div className="center">
+                                        <input className="range" type="range" value={80} />
+                                    </div>
                                 </div>
-                            <div className="pocenteCss"></div>
-                            </div>
-                            <div className="mainMysql">
-                                <div className="html">
-                                <h3>Mysql</h3> 
-                                <h3>30%</h3>
+                                <div className="l-time">
+                                    <div className="label">
+                                        <label htmlFor="">Css</label>
+                                        <h3>80%</h3>
+                                    </div>
+                                    <div className="center">
+                                        <input className="range" type="range" value={80} />
+                                    </div>
                                 </div>
-                            <div className="pocenteMysql"></div>
+                                
+                            
                             </div>
-                            <div className="H">23</div>
-                            <div className="HTML"></div>
-                            <div className="HTML"></div>
+                          
                         </div>
                     </div>
                 </div>

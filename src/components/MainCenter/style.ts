@@ -8,12 +8,12 @@ export const MainCenterStyle = styled.div`
 
       padding-left: 10px;
       padding-right: 10px;
-      height: auto;
-  
-   
+      height: auto;  
+      background: var(--secondary);
+        @media screen and (max-width: 850px) {
+           grid-row: 2;
+        }
 
-      
-    background: var(--secondary);
 
       
 

@@ -39,22 +39,16 @@ export const MainRightStyle = styled.div`
         display: block;
     }
 
-    @media screen and (max-width: 1000px) {
     
-            
-    display: none;
-
-}
-
     i, button {
-       margin: 15px;
+        margin: 15px;
         font-size: 30px;
         background: var(--third);
         color: white;
         border: none;
-    
+        
     }
-   
+    
     .daniel{
         width: 200px;
         height: 100%;
@@ -67,7 +61,7 @@ export const MainRightStyle = styled.div`
 @keyframes slidein {
   from {
  
-    width: 0px;
+      width: 0px;
   }
 
   to {
@@ -79,9 +73,17 @@ export const MainRightStyle = styled.div`
 
     
     
+      @media screen and (max-width:1000px) {
+        display: none;
+      
+      }
     
-
-
+      @media screen and (max-width: 480px) {
+       .scroll{
+           
+           display: none;
+       }
+    }
 
     /* right: 0; */
 

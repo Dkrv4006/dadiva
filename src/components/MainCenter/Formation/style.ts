@@ -11,7 +11,7 @@ export const FormationStyle = styled.div`
         content: "";
         position: absolute;
         
-        height: 110%;
+        height: 120%;
         width: 5px;
         top: 0;
         left: calc(50% - 2px);

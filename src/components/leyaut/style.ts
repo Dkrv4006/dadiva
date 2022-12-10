@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const LayoutStyle = styled.div`
     width: auto;
     height: auto;
-
     background-color:#191923;
 
     main{
@@ -49,8 +48,10 @@ export const LayoutStyle = styled.div`
 
     }
 
-    @media screen and (max-width: 480px) {
-       .app-root:active{
+    @media screen and (max-width: 850px) {
+       .app-root{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
            
     }
     
