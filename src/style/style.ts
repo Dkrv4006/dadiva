@@ -27,6 +27,11 @@ export const GlobalStyle = createGlobalStyle`
         background-color: var(--primary);
     }
 
+    a{
+      text-decoration: none;
+      text-decoration-color: red;
+    }
+
      #root{
     
      }

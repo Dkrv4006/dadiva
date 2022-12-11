@@ -11,41 +11,39 @@ export const HistoryStyle = styled.div`
 
     align-items: center;
     
-    .app-history{
-       width: 60%;
-       height: 100%;
-      
-       border-radius: 30px;
-       border: var(--primary) 3px solid;
-       background: var(--secondary);
-       display: flex;
-       flex-direction: column;
-   
-       align-items: center;
-
-   }
-
-    .frontend, .backend{
-        width: 90%;
-        height: auto;
-        padding: 15px;
-        text-align: center;
-
+.app-history{
+    width: 60%;
+    height: 100%;
     
+    border-radius: 30px;
+    border: var(--primary) 3px solid;
+    background: var(--secondary);
+    display: flex;
+    flex-direction: column;
 
+    align-items: center;
+}
 
-        h1{
-            font-size:30px;
-            color: white;
-            margin-bottom: 20px;
-        }
-        p{
-            color: #fff;
+.frontend, .backend{
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
 
-        }
-
-        /* background: var(--third); */
+    h1{
+        font-size:30px;
+        color: white;
+        margin-bottom: 20px;
     }
+
+    p{
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    display: none;
+}
 
 
     

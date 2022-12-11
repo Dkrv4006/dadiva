@@ -6,6 +6,7 @@ import { MainCenterStyle } from "./style";
 import { Certificate } from "./Certificate";
 import { Project } from "./project";
 import { History } from "./History";
+import Footer from "./Footer";
 
 
 export function MainCenter() {
@@ -17,6 +18,7 @@ export function MainCenter() {
             <History/>
             <Liga/>
             <Project/>
+            <Footer/>
         </MainCenterStyle>
           
        

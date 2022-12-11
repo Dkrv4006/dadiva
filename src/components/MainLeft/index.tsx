@@ -1,15 +1,39 @@
 import { MainLeftStyle } from "./style";
 import  avata  from "../../assets/avata.png"
+import { TypeAnimation } from "react-type-animation";
+import Description from "./Description";
+
+
 export function MainLeft() {
     return(
         <MainLeftStyle className="on">
             <div className="app-left">
                 <div className="avatar" >
                     <div className="perfil"><img src={avata} alt="" /></div>
+                        <h2>Daniel Kennedy</h2>
+
+                    <div className="sd">
+                        <TypeAnimation
+                            sequence={[`sou desenvolvedor`, 1000,
+                            'sou desenvolvedor FULL STACK',2000]}
+                            speed={10} 
+                            deletionSpeed={10}
+                            wrapper="h3"
+                            repeat={Infinity}
+                        />
+                    </div>
+                    <div className="social">
+                        <a href="https://github.com/Dkrv4006"><i className="fa-brands fa-instagram"></i></a>
+                        <a href="https:t.me/dkrv400619"><i className="fa fa-telegram"></i></a>
+                        <a href="https://github.com/Dkrv4006"><i className="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://linkedin.com/in/daniel-kennedy-b1b386217"><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Dkrv4006"><i className="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
+                <Description/>
                 <div className="scroll">
                     <div className="experience">
-                        <h2>Experience</h2>
+                        <h3>Experience</h3>
                         <div className="language">
                             <div className="mainJavaScript">
                                 <div className="l-time">

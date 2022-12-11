@@ -8,26 +8,27 @@ export const LigaStyle = styled.div`
     display: flex;
     justify-content: space-between;
 
-    .frontend{
-        width: 31%;
-        height: 250px;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+.frontend{
+    width: 31%;
+    height: 250px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--third);
 
 
-        h1{
-            font-size: 20px;
-            color: white;
-            margin-bottom: 14px;
-        }
-
-        background: var(--third);
+    h1{
+        font-size: 20px;
+        color: white;
+        margin-bottom: 14px;
     }
 
-    .hvr-grow {
+}
+
+.hvr-grow {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -38,12 +39,34 @@ export const LigaStyle = styled.div`
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: 0 0 11px var(--primary);
     border-radius: 10px;
-    }
+}
+
+@media screen and (max-width: 850px) {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--secondary);
+    z-index: 20;
+    position: relative;
+
+        
+    
+
+.frontend{
+    width: 85%;
+    height: auto;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+}
+    
+}
 
 
     

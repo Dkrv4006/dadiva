@@ -1,7 +1,5 @@
 import { LigaStyle } from "./style"
 
-
-
 export const Liga = () => {
   return (
     <LigaStyle>
@@ -17,9 +15,6 @@ export const Liga = () => {
           <h1>Cybersecurity</h1>
           <p>Vestibulum et leo ac libero vulputate ultrices. Nullam tristique orci sit amet lacus tincidunt, a hendrerit tellus ullamcorper. Aenean feugiat metus in nunc tincidunt faucibus. Duis nec venenatis metus. Duis rhoncus et sapien quis consequat.</p>
         </div>
-        
-        
-      
     </LigaStyle>
   )
 }

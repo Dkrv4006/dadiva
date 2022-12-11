@@ -9,7 +9,6 @@ export function Layout(){
 
     return(
       <div className="app">
-
         <LayoutStyle>
           <main>
             <div className="app-root">
@@ -18,12 +17,8 @@ export function Layout(){
               <MainRight/>
             </div>
           </main>
-    
-       
         </LayoutStyle>
-      
       </div>
-    )
+)
 
-    
 }
