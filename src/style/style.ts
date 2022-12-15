@@ -41,6 +41,7 @@ overflow: visible;
 .grid{
    display: grid;
 }
+
 .flex{
    display: flex;
 }
