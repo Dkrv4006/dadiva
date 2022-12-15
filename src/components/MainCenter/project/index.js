@@ -49,13 +49,11 @@ export const Project = () => {
          {Project.map(({name,imga,icon},index) => {
           return(
          <div  className="project">{imga 
-         ? ( <img src={imga}></img>) 
+        ? ( <img src={imga} alt="ppopo"></img>) 
          : (<i className={icon}></i>)}
          </div>
           )
          })}
-         {/* <div className="project"><i className="fa-solid fa-spinner fa-spin-pulse"></i></div>
-         <div className="project"><i className="fa-solid fa-spinner fa-spin-pulse"></i></div> */}
        </div>
     </ProjectStyle>
   )
