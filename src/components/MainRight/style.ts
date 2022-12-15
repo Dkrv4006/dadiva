@@ -47,6 +47,11 @@ i, button {
     background: var(--third);
     color: white;
     border: none;
+    transition: opacity  .3s;
+    
+    &:hover{
+        opacity: 0.9;
+    }
     
 }
 

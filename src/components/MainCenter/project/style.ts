@@ -11,8 +11,9 @@ export const ProjectStyle = styled.div`
 
 .project{
     display: flex;
-    width: 30%;
+    width: 31%;
     height: 200px;
+    margin-top: 20px;
     background:var(--third);
     justify-content: center;
     align-items: center;  
@@ -33,6 +34,10 @@ i{
     font-size: 50px;
     text-align: justify;
     color: #fff;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 
 .iconpro{

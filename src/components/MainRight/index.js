@@ -2,6 +2,30 @@ import { MainRightStyle } from "./style";
 
 export function MainRight() {
 
+    const social = [
+        {
+            link:"https://linkedin.com/in/daniel-kennedy-b1b386217",
+            icon:"fa-brands fa-linkedin"
+
+        },
+        {
+            link:"https://github.com/Dkrv4006",
+            icon:"fa-brands fa-github"
+
+        },
+        {
+            link:"https://github.com/Dkrv4006",
+            icon:"fa-brands fa-whatsapp"
+
+        },
+        {
+            link:"https:t.me/dkrv400619",
+            icon:"fa-brands fa-telegram"
+
+        }
+
+    ]
+
     return(
         <MainRightStyle >
           
@@ -12,9 +36,12 @@ export function MainRight() {
           } */}
 
           <div className="social socialleft">
-                    
-                    <a href="https://github.com/Dkrv4006"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https:t.me/dkrv400619"><i className="fa fa-telegram"></i></a>
+
+            {social.map(({link,icon},index) => {
+                   return( 
+                    <>
+                    <a href={link}><i className={icon}></i></a>
+                    {/* <a href="https:t.me/dkrv400619"><i className="fa fa-telegram"></i></a>
                     <a href="https://github.com/Dkrv4006">
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>
@@ -23,7 +50,10 @@ export function MainRight() {
                     </a>
                     <a href="https://github.com/Dkrv4006">
                         <i className="fa-brands fa-github"></i>
-                    </a>
+                    </a> */}
+                    </>
+             );
+             })}
           </div>
         </MainRightStyle>
     )

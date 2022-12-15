@@ -26,7 +26,7 @@ h2{
     
 h3{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100;
 
 }
@@ -43,7 +43,7 @@ h3{
     top: 15px;
     background: #252430;
     
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     z-index: 100;  
