@@ -13,27 +13,32 @@ export const Project = () => {
     {
       name: "deshboard",
       imga: javascript,
-      icon:"fa-solid fa-spinner fa-spin-pulse"
+      icon:"fa-solid fa-spinner fa-spin-pulse",
+      link: " https://dkrv4006.github.io/Cronometro/"
     },
     {
       name: "deshboard",
       imga: types,
-      icon:"fa-solid fa-spinner fa-spin-pulse"
+      icon:"fa-solid fa-spinner fa-spin-pulse",
+      link: "https://dkrv4006.github.io/Gerador/"
     },
     {
       name: "deshboard",
       imga: react,
-      icon:"fa-solid fa-spinner fa-spin-pulse"
+      icon:"fa-solid fa-spinner fa-spin-pulse",
+      link: "https://dkrv4006.github.io/financiamento_de_veiculo/"
     },
     {
       name: "deshboard",
       imga: node,
-      icon:"fa-solid fa-spinner fa-spin-pulse"
+      icon:"fa-solid fa-spinner fa-spin-pulse",
+      link: "https://dkrv4006.github.io/lista-tarefa/"
     },
     {
       name: "deshboard",
       imga: false,
-      icon:"fa-solid fa-spinner fa-spin-pulse"
+      icon:"fa-solid fa-spinner fa-spin-pulse",
+      link: "https://dkrv4006.github.io/Projeto_html/"
     },
     {
       name: "deshboard",
@@ -46,12 +51,12 @@ export const Project = () => {
        <h1>Projetos</h1>
          <div className="projectMain">
          <div className="iconpro"><i className="fa-solid fa-briefcase"></i></div>
-         {Project.map(({name,imga,icon},index) => {
+         {Project.map(({link,name,imga,icon},index) => {
           return(
-         <div  className="project">{imga 
+         <a href={link} className="project">{imga 
         ? ( <img src={imga} alt="ppopo"></img>) 
          : (<i className={icon}></i>)}
-         </div>
+         </a>
           )
          })}
        </div>
